@@ -70,9 +70,29 @@ button {
  footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
     color: #F9FAF8;
     background-color: #1F2937;
     padding: 16px;
  }
+
+ /* gallery */
+.gallery h2 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding: 50px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.post {
+    width: 200px;
+    height: auto;
+}

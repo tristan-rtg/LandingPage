@@ -96,3 +96,16 @@ button {
     width: 200px;
     height: auto;
 }
+/* Citation */
+.citation {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 100px 200px;
+}
+.citation cite {
+    font-family: light italic;
+}
+.citation h3 {
+    text-align: right;
+}

@@ -3,6 +3,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, Arial, Helvetica, sans-serif
 }
 
 img {
@@ -61,6 +62,8 @@ nav {
     padding: 60px 0;
  }
 button {
+    font-size: 16px;
+    font-weight: bold;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
@@ -108,4 +111,32 @@ button {
 }
 .citation h3 {
     text-align: right;
+}
+/* call to action */
+.card {
+    background-color: #3882F6;
+    display: flex;
+    margin: 100px 200px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 30px 60px;
+    color: #F9FAF8;
+}
+.card, .text {
+    flex: 2;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.card h4 {
+    color: #F9FAF8;
+    font-size: 36px;
+    margin: 0;
+}
+.card button {
+    border: 2px solid;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    padding: 8px 32px;
+    height: 36px;
+    margin: auto 0px;
 }
